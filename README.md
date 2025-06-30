@@ -46,7 +46,7 @@ python app.py
 ```
 Then open http://localhost:5000 in your browser.
 
-#UI Features:
+## UI Features:
 - Type your question and press Send
 - Chat history scrolls and shows user/bot messages
 - Click Reset to clear the session
