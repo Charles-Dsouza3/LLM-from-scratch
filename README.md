@@ -34,7 +34,7 @@ Implemented in `model.py` using only PyTorch modules.
 ```bash
 python main.py -batch_size 32
 ```
-# What this does:
+## What this does:
 - Loads and preprocesses the dataset
 - Creates vocab.txt inside openwebtext/
 - Trains the model for 200 iterations (can be modified)
