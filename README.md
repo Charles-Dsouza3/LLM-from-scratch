@@ -33,6 +33,23 @@ Implemented in `model.py` using only PyTorch modules.
 ## 🔧 Step 1: Train the Model
 ```bash
 python main.py -batch_size 32
+```
+# What this does:
+- Loads and preprocesses the dataset
+- Creates vocab.txt inside openwebtext/
+- Trains the model for 200 iterations (can be modified)
+- Saves the model as model-openwebtext.pt
+
+## 🌐 Step 2: Launch the Web Chatbot
+```bash
+python app.py
+```
+Then open http://localhost:5000 in your browser.
+
+#UI Features:
+- Type your question and press Send
+- Chat history scrolls and shows user/bot messages
+- Click Reset to clear the session
 
 ## 📦 Requirements
 
